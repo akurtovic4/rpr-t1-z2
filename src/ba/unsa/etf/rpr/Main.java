@@ -15,8 +15,11 @@ public class Main {
     }
 
     public static int sumaCifara(int n) {
-        int s = 0;
-        while (n != 0) {
+
+        int s;
+        s = 0;
+        while ( n != 0 ) {
+
 
             int cifra = n % 10;
             s = s + cifra;
